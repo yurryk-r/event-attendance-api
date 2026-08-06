@@ -147,10 +147,6 @@
                 "type": "text"
               }
             ],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n    \"email\": \"admin@example.com\",\r\n    \"password\": \"123\"\r\n}"
-            },
             "url": {
               "raw": "{{base_url}}/logout",
               "host": [
@@ -526,10 +522,6 @@
                 "type": "text"
               }
             ],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n    \"title\": \"Laravel 22\"\r\n}"
-            },
             "url": {
               "raw": "{{base_url}}/events/3",
               "host": [
@@ -696,10 +688,6 @@
                 "type": "text"
               }
             ],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n    \"first_name\": \"Bob\",\r\n    \"last_name\": \"Bobkoff\",\r\n    \"email\": \"bob@example.com\"\r\n}"
-            },
             "url": {
               "raw": "{{base_url}}/participants/5",
               "host": [
@@ -759,7 +747,6 @@
         {
           "name": "Get event participant",
           "protocolProfileBehavior": {
-            "disableBodyPruning": true,
             "disabledSystemHeaders": {
               "accept": true,
               "content-type": true
@@ -779,10 +766,6 @@
                 "type": "text"
               }
             ],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n    \"first_name\": \"Bob\",\r\n    \"last_name\": \"Bobkoff\",\r\n    \"email\": \"bob@example.com\"\r\n}"
-            },
             "url": {
               "raw": "{{base_url}}/events/1/participants",
               "host": [
@@ -852,10 +835,6 @@
                 "type": "text"
               }
             ],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n    \"participant_id\": 1\r\n}"
-            },
             "url": {
               "raw": "{{base_url}}/events/4/participants/4",
               "host": [
