@@ -25,14 +25,14 @@ The API uses role-based access control with four access levels:
 | Remove participants from events        |   ❌   |   ❌  |    ✅    |   ✅   |
 | View users                             |   ❌   |   ❌  |    ❌    |   ✅   |
 | Change user roles                      |   ❌   |   ❌  |    ❌    |   ✅*  |
-| Delete users                           |   ❌   |   ❌  |    ❌    |   ✅** |
+| Delete users                           |   ❌   |   ❌  |    ❌    |   ✅* |
 
 ### Admin restrictions
 
 An admin cannot:
 
 * change their own role;
-** delete their own account.
+* delete their own account.
 
 These restrictions prevent an administrator from accidentally removing their own administrative access.
 
