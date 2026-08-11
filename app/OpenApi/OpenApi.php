@@ -10,8 +10,8 @@ use OpenApi\Attributes as OA;
     description: 'REST API for managing events, participants and users.'
 )]
 #[OA\Server(
-    url: 'http://localhost:8000/api',
-    description: 'Local development server'
+    url: '/api',
+    description: 'API server'
 )]
 #[OA\SecurityScheme(
     securityScheme: 'sanctum',
