@@ -19,8 +19,7 @@ class EventController extends Controller
         operationId: 'getEvents',
         tags: ['Events'],
         summary: 'List events',
-        description: 'Returns a list of all events with their creators.',
-        security: [['sanctum' => []]],
+        description: 'Returns a list of all events with their creators. This endpoint is publicly accessible and does not require authentication.',
         responses: [
             new OA\Response(
                 response: 200,
@@ -136,7 +135,7 @@ class EventController extends Controller
         operationId: 'getEvent',
         tags: ['Events'],
         summary: 'Get event',
-        description: 'Returns a single event.',
+        description: 'Returns a single event. This endpoint is publicly accessible and does not require authentication.',
         parameters: [
             new OA\Parameter(
                 name: 'event',
