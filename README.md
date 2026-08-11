@@ -14,6 +14,12 @@ REST API for managing events and participants, built with Laravel.
 * Request validation
 * OpenAPI / Swagger API documentation
 
+## Roles & Permissions
+
+The API uses role-based access control with four access levels: Guest, User, Manager and Admin.
+
+See the complete [Roles & Permissions](docs/ROLES.md) documentation.
+
 ## Requirements
 
 * PHP 8.4+
